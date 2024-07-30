@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nosotros - Rescate Paws</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #87cefa;
+            color: #fff;
+            padding: 10px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+            display: flex;
+            align-items: center;
+        }
+
+        header img {
+            height: 100px;
+            margin-right: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+
+        nav ul li a:hover {
+            background-color: #4682b4;
+        }
+
+        section {
+            padding: 40px 0;
+        }
+
+        .nosotros-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nosotros-content img {
+            width: 40%;
+            border-radius: 8px;
+        }
+
+        .nosotros-content div {
+            width: 55%;
+        }
+
+        footer {
+            background-color: #87cefa;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .social-icons {
+            margin-top: 10px;
+        }
+
+        .social-icons a {
+            margin: 0 10px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-title">
+                <img src="https://cdn-uploads-frankfurt.starofservice.com/uploads/pj/thumbs-medium/starofservice_1945021645.png" alt="Logo de Rescate Paws">
+                <h1>Rescate Paws</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="nosotros" class="container">
+        <h2>Sobre Nosotros</h2>
+        <div class="nosotros-content">
+            <img src="data:image/jpeg;base64,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" alt="Nuestro equipo">" 
+            <div>
+                <p>Rescate Paws fue fundada en 2010 con el objetivo de ayudar a los perros en situación de calle. Desde entonces, hemos rescatado y reubicado a miles de perros, brindándoles una segunda oportunidad para una vida feliz y saludable.</p>
+                <p>Nuestro equipo está compuesto por voluntarios dedicados y amantes de los animales, quienes trabajan incansablemente para garantizar el bienestar de cada perro bajo nuestro cuidado.</p>
+                <p>Estamos comprometidos con la educación sobre el cuidado responsable de los animales y la promoción de la adopción en lugar de la compra de mascotas.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Rescate Paws. Todos los derechos reservados.</p>
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank">Facebook</a>
+                <a href="https://twitter.com" target="_blank">Twitter</a>
+                <a href="https://instagram.com" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+
